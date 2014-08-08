@@ -1,0 +1,27 @@
+<div class="container-fluid">
+    <div id="bgImgBox" >
+        <img class="img img-responsive bgImg " ng-src="{{chapters[currentChapter].pages[currentPage].image}}">
+    </div>
+    <div id="content">
+    <div class="col-sm-10">
+        <div class="container-fluid" >
+            <div class="dummy"></div>
+            <div class="col-xs-1"></div>
+            <div class="col-xs-10 ">
+                <h2 class="pageTitle">{{chapters[currentChapter].pages[currentPage].title}}</h2>
+                <p class="pageDescription"> {{chapters[currentChapter].pages[currentPage].description}}</p>
+            </div>
+            <div class="col-xs-1"></div>
+        </div>
+    </div>
+    <div class="col-sm-2" id="sidebar">
+        <img class="img-responsive" ng-src="{{logo}}">
+        <div ng-repeat="chapter in chapters">
+            <p ng-click="selectChapter($index)" ng-class="{'current': currentChapter==$index }" class="menu-chapter" >{{chapter.ChapterTitle}}</p>
+            <div  ng-show="showChapter==$index" class="menu-pages" ng-animate="box">
+                <p ng-repeat="page in chapter.pages" ng-click="showPage($index)" class="menu-title">{{page.title}}</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>

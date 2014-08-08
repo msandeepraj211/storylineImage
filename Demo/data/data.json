@@ -1,0 +1,46 @@
+{
+    "logo":"./images/logo.png",
+    "chapters": [
+        {
+            "ChapterTitle": "Chapter-1",
+            "pages": [
+                {
+                    "title": "Title-1",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend massa nisi, sit amet tempor augue ullamcorper ac. Morbi at nunc elementum, gravida velit quis, ullamcorper nibh. Quisque rhoncus id dui a hendrerit. ",
+                    "image": "./images/wp1.jpg"
+                },
+                {
+                    "title": "Title-2",
+                    "description": "Description-2",
+                    "image": "./images/wp2.jpg"
+                },
+                {
+                    "title": "Title-3",
+                    "description": "Description-3",
+                    "image": "./images/wp3.jpg"
+                },
+                {
+                    "title": "Title-4",
+                    "description": "Description-4",
+                    "image": "./images/wp1.jpg"
+                }
+            ]
+        },
+        {
+            "ChapterTitle": "Chapter-2",
+            "pages": [
+                {
+                    "title": "Title-5",
+                    "description": "Description-5",
+                    "image": "./images/wp4.jpg"
+                },
+                {
+                    "title": "Title-6",
+                    "description": "Description-6",
+                    "image": "./images/wp2.jpg"
+                }
+            ]
+        }
+
+    ]
+}

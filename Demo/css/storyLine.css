@@ -1,0 +1,139 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+body {
+}
+
+#bgImgBox{
+    max-width: 100vw;
+    overflow: hidden;
+    max-height: 100vh;
+    z-index: 0;
+}
+
+.bgImg{
+    min-height: 100%;
+    min-width: 100%;
+    z-index: 8888;
+}
+#content{
+    z-index: 123;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: auto;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+
+}
+h1,h2,h3,h4,h5,h6,p{
+    color: #ffffff;
+}
+.col-sm-10{
+    margin: 0!important;
+    padding: 0!important;
+}
+.container-fluid{
+    padding: 0!important;
+}
+.dummy{
+    height: 10vh;
+    width: 100%;
+}
+.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12,.col-sm-11{
+    padding: 0;
+    margin: 0;
+}
+
+.row{
+    margin: 0!important;
+    padding: 5px;
+}
+#sidebar{
+    height: 100vh;
+    padding: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+.pageTitle{
+    text-align:center;
+    text-justify:inter-word;
+    font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+    text-shadow: 0 0 1px #667;
+    text-size:x-large;
+
+}
+.pageDescription{
+    text-align:justify;
+    text-justify:inter-word;
+    font: large/1.556 "Libertine", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
+}
+.centered {
+    text-align: center;
+}
+.menu-title{
+    padding: 3px;
+    margin: 0;
+    font-family: "Libertine", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
+    /*font-size: large;*/
+    font-weight: 500;
+    border: #4b4b4b solid 1px;
+}
+.menu-title:hover{
+    text-align: center;
+    border: #000000 solid 1px;
+    background-color: #080808;
+
+}
+.menu-chapter{
+    padding: 3px;
+    margin: 0;
+    font-family: "Libertine", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
+    background-color: #373737;
+    font-weight: 700;
+    font-size: large;
+}
+.menu-chapter:hover{
+    text-align: center;
+    border: #000000 solid 2px;
+    background-color: #080808;
+}
+.current{
+    text-align: center;
+    background-color: #1e1e1e;
+}
+#content::-webkit-scrollbar{
+    width: 8px;
+    background-color: rgba(0,0,0,0.2);
+}
+#content::-webkit-scrollbar-track{
+    width: 8px;
+    background-color: rgba(0,0,0,0.2);
+}
+#content::-webkit-scrollbar-thumb{
+    width: 8px;
+    background-color: rgba(255,255,255,0.4);
+    border:1px solid;
+    border-color: rgba(0,0,0,0.9);
+}
+#sidebar::-webkit-scrollbar{
+    width: 8px;
+    background-color: rgba(0,0,0,0.2);
+}
+#sidebar::-webkit-scrollbar-track{
+    width: 8px;
+    background-color: rgba(0,0,0,0.2);
+}
+#sidebar::-webkit-scrollbar-thumb{
+    width: 8px;
+    background-color: rgba(255,255,255,0.4);
+    border:1px solid;
+    border-color: rgba(0,0,0,0.9);
+}
+#sidebar img{
+    padding: 1vw;
+}
